@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+//API address has provided to fetch the data
+const URL = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
+
 function App() {
   return (
     <div className="App">
