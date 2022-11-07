@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header'
 import Home from './components/Home';
 import Footer from './components/Footer';
+import SearchLetter from './components/SearchByLetter';
 
 //API address has provided to fetch the data
 const URL = 'https://www.thecocktaildb.com/api/json/v1/1/random.php';
@@ -18,6 +19,7 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path="/" element = {<Home />} />
+          <Route path="/SearchByLetter" element = {<SearchLetter />} />
         </Routes>
       </div>
       <Footer />
