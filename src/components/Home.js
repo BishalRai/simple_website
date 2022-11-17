@@ -40,7 +40,7 @@ export default function Home() {
       <div>
         <h4>COCKTAIL OF THE DAY</h4>
         <h5>{cocktailName}</h5>
-        <img src={cocktailImage} height = "300" width = "300"/>
+        <img src={cocktailImage} alt="Cocktail" height = "300" width = "300"/>
       </div>
       <h6>Glass:</h6>
       <p>{cocktailGlass}</p>

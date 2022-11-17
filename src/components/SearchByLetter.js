@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const URL = "https://www.thecocktaildb.com/api/json/v1/1/search.php?f=";
 
+
 function SearchCocktailByLetter() {
   const [userInputletter, setuserInputletter] = useState("");
   const [cocktailCollection, setCocktailCollection] = useState([]);
