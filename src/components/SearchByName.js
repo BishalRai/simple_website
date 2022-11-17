@@ -45,7 +45,7 @@ function SearchCocktailByName() {
                   <ol>
                     {cocktailList.map((cocktail) => (
                       <li key={cocktail.idDrink}>
-                        <img src={cocktail.strDrinkThumb} alt="" height = "100" width = "100"/>
+                        <img src={cocktail.strDrinkThumb} alt="" height = "200" width = "200"/>
                         {cocktail.strDrink}
                       </li>
                     ))}
