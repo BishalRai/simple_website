@@ -37,6 +37,7 @@ function SearchCocktailByName() {
             <input
               value={userInsertName}
               onChange={(e) => setuserInsertName(e.target.value)}
+              required
             />
             <button onClick={() => setToggle(!toggle)}> Search </button>
             {toggle && (

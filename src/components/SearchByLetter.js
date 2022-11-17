@@ -37,6 +37,7 @@ function SearchCocktailByLetter() {
             <input
               value={userInputletter}
               onChange={(e) => setuserInputletter(e.target.value)}
+              required
             />
             <button onClick={() => setToggle(!toggle)}> Search </button>
             {toggle && (
