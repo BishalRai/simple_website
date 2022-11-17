@@ -14,10 +14,10 @@ export default function Navbar() {
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/SearchByName">Search Cocktail by name</a>
+          <a className="nav-link active" href="/SearchByName">Search by name</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/SearchByLetter">Search Cocktail by letter</a>
+          <a className="nav-link active" href="/SearchByLetter">Search by letter</a>
         </li>
       </ul>
     </div>
